@@ -1,0 +1,158 @@
+.outer-container{
+    width: 100vw;
+    height: 550px;
+    background-color: bisque;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container{
+    height: 400px;
+    width: 320px;
+    border: 2px solid black;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 7px;
+    margin-top: 100px;
+}
+
+.img-container{
+    height: 200px;
+    width: 300px;
+   
+    border-radius: 7px;
+}
+
+.img-dosa{
+    background-image: url('Images/dosa.png');
+}
+
+.img-idli{
+    background-image: url('Images/idli.jpg');
+}
+
+.img-medu-vada{
+    background-image: url('Images/medu-vada.webp');
+}
+
+
+/* .text-container{
+
+} */
+
+.food-title{
+    width: 300px;
+    background-color: plum;
+}
+
+.food-rating{
+    width: 300px;
+    background-color: chartreuse;
+}
+
+.food-price{
+    width: 300px;
+    background-color: orange;
+}
+
+.qty-add-to-cart-container{
+    height: 60px;
+    width: 300px;
+    background-color: goldenrod;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.qty-container{
+    height: 35px;
+    width: 120px;
+    background-color: darkmagenta;
+    border: 2px solid black;
+    border-radius: 4px;
+
+    display: flex;
+}
+
+.qty{
+    height: 100%;
+    width: 60px;
+    background-color: pink;
+
+    font-size: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.symbol{
+    height: 100%;
+    width: 30px;
+    background-color:aquamarine;
+
+    font-size: 25px;
+    font-weight: 800;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.add-to-cart{
+    height: 35px;
+    width: 120px;
+    background-color: red;
+    font-size: 20px;
+    border-radius: 4px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.f-22{
+   font-size: 22px; 
+}
+
+.my-7{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+
+.checkout-container {
+    height: 100px;
+    width: 100%;
+    background-color: aquamarine;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkout-btn{
+    font-size: 30px;
+    width: 150px;
+
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: coral;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+h3{
+    display: inline;
+}
